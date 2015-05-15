@@ -1,0 +1,23 @@
+﻿inet addr: 23.253.104.53
+inet6 addr: 2001:4800:7817:101:be76:4eff:fe05:2a05/64 Scope:Global
+
+
+mbed Device Server:
+M2M Interface CoAP port: UDP/5683
+Web Interface HTTP port: TCP/8080, HTTP Basic Auth: “app2”/”secret”
+Admin Interface HTTP port: TCP/8081, HTTP Basic Auth: “admin”/”admin”
+Default registration domain = “domain”
+Discovery URL = http://23.253.104.53:8080/domain/endpoints
+
+
+Node-RED:
+GUI Interface port: TCP/1880
+
+
+MQTT:
+Mosquitto broker port: TCP/1883
+
+
+IoT Toolkit:
+HTTP port: TCP/8000
+CoAP port: UDP/5684
