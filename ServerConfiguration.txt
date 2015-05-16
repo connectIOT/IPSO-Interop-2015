@@ -1,6 +1,6 @@
 
 Server Configuration for the IPSO Interop May 20, 2015
-ARM Provided Server 
+ARM Provided Server - Internet Reachable 
 
 inet addr: 23.253.104.53
 inet6 addr: 2001:4800:7817:101:be76:4eff:fe05:2a05/64 Scope:Global
@@ -25,3 +25,5 @@ Mosquitto broker port: TCP/1883
 IoT Toolkit:
 HTTP port: TCP/8000
 CoAP port: UDP/5684
+
+In addition, there will be local instances of mbed Device Server available with IPV4+IPV6 access.
